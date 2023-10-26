@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first webpage</title>
+    <link href="css/my_css.css" rel="stylesheet">
 </head>
 <body>
-    <h1>All About Me</h1>
-
-    <p>Visit my  <a href="hobbies.html">Hobbies page</a></p>
-    <p>Visit a chapter of the book I like <a href="book.html">Book</a></p>
+    <h1 class="header">All About Me</h1>
+    <div  id="first"   class="headerbox">
+        <p>Visit my  <a href="hobbies.html"class="link">Hobbies page</a></p>
+    <p>Visit a chapter of the book I like <a href="book.html"class="link">Book</a></p>
     <p>Hello world ! My name is Utku. I live in İstanbul
     </p>
 
@@ -19,28 +20,33 @@
 
     <p>I am currently learning html, css, and javascript</p>
     <p>I would like to become a fullstack web developer </p>
+    </div>
+    
+    <div class="header"> 
+    <p class="centertextbold"><strong>This is me !</strong>  </p>
+    </div>
 
-
-    <p>This is me !  </p>
-
-    <img src="images/Me.png" alt="Me"
+    <img class="center" src="images/Me.png" alt="Me"
     title="Utku Aydin">
     
-
-    <h2>Three important things to know about me </h2>
-    <ul>
+     
+    <h2  class="header" id="three">Three important things to know about me </h2>
+    <div id="list" class="headerbox">
+        
+        <ul>
         <li>I am a very curious person </li>
         <li>I love to learn new things </li>
         <li>I love to travel </li>
 
     </ul>
-    <blockquote>
+    </div>
+    <blockquote id="quote"   class="headerbox">
         <p>The supreme guide in life is <strong>science.</strong></p>
-        <cite>Mustafa Kemal ATATURK</cite>
-
+        <cite class="bigger">Mustafa Kemal ATATURK</cite>
+    </blockquote>
  
 
-    <p>Here is a website I like <a href= "https://www.gnoosic.com/" target="_blank">gnoosic</a></p>
+    <p id="quote" class="headerbox">Here is a website I like <a  href= "https://www.gnoosic.com/" target="_blank" class="link">gnoosic</a></p>
 
   
 </body>
